@@ -12,7 +12,7 @@ function ProjectRouter() {
   return (
     <Routes>
       <Route path="*" element={<NotFoundPage />} />
-      <Route path="/shoe/" element={<MainPage />} />
+      <Route path="/" element={<MainPage />} />
       <Route path="/catalog" element={<CatalogPage />} />
       <Route path="/about" element={<About />} />
       <Route path="/contacts" element={<Contacts />} />
